@@ -75,7 +75,7 @@ $("#create").click(function (e) {
             body: JSON.stringify({ userName : userName.value , email : email.value , password : password.value })
           });
         localStorage.setItem("email" , email.value)
-        location.pathname = "success/success.html"
+        location.pathname = "Task/success/success.html"
     }
 })
 
